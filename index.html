@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <title>Just Draw It</title>
+    <meta name='description' content='' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <link rel="icon" href="./logo.png">
+    <link rel='stylesheet' href='./styles.css' />
+    <script type="text/javascript" src='./index.js' async defer></script>
+</head>
+
+<body>
+    <h1 class="title">Just Draw It</h1>
+    <div class="main">
+        <canvas id="canvas" width="1020" height="600"></canvas>
+        <div class="dashBoard">
+            <p class="color">Color</p>
+            <input class="clr" type="color" name="penColor" value="#000000">
+            <p class="size">Size</p>
+            <input class="rng" type="range" name="penSize" min="1" max="100" step="2" value="5">
+            <button id="save">Download</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html>
